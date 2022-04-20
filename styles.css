@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+	display: flex;
+}
+
+
+.img-container>img{
+	position: relative;
+}
+
+.img-container>div{
+	display: flex;
+	align-items: center;
+	color: white;
+	background-color: rgba(0,0, 0, 0.6);
+	padding: 2rem auto;
+	position: absolute;
+	top: 5rem;
+	left: -25rem;
+	transform: translate(50%,50%);
+}
+
+.img-container>div>p{
+	box-sizing: content-box;
+	padding-right: 12.3rem;
+	font-size: 6rem;
+}
+
+.img-container>div>img{
+	height: 8rem;
+	width: auto;
+	box-sizing: content-box;
+	padding-left: 13rem;
+}
+
+.main-container{
+	width: 50rem;
+	padding: 10rem 0;
+}
+
+.expo-text{
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 0 2rem;
+}
+
+.expo-text>p:last-child{
+	margin-top: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+form>.container{
+	background-color: white;
+	padding-left: 2rem;
+	box-shadow: 1px 1px 10px lightgray;
+	padding-bottom: 1.5rem;
+}
+
+.form-container {
+	display: flex;
+}
+
+.hey-ho {
+	padding: 2rem 0;
+}
+
+.divider{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-right: 4rem;
+}
+
+.divider>div{
+	display: flex;
+	flex-direction: column;
+}
+
+.create-account{
+	margin: 3rem 0;
+	padding-left: 2rem;
+}
+
+.create-account>button{
+	font-size: 1rem;
+	background-color: #596D48;
+	color: white;
+	border-radius: 10px;
+	margin-bottom: 3rem;
+	padding: 1rem 4rem;
+}
+
+span{
+	color: #596D48;
+}
+
+label {
+	font-size: 12px;
+}
+
+input{
+	font-size: larger;
+	margin: 5px 0;
+	border: 1px solid #E5E7EB;
+}
+
+input:focus{
+	border: 1px solid lightblue;
+	box-shadow: 0 1px 1px;
+}
+
+.error {
+	border: 1px solid red;
+	box-shadow: 0 1px 1px;
+}
